@@ -1,0 +1,174 @@
+/* ====== Base Chat Layout ====== */
+.chat-container {
+  width: 590px;
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 24px;
+  background-color: #f9fafb;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: "Inter", system-ui, sans-serif;
+  color: #1f2937;
+}
+
+/* ====== Title ====== */
+.chat-title {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 20px;
+}
+
+/* ====== Form ====== */
+.chat-form {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.chat-input {
+  flex: 1;
+  padding: 12px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+.chat-input:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.1);
+}
+
+.chat-submit-btn {
+  background-color: #6366f1;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.chat-submit-btn:hover {
+  background-color: #4f46e5;
+}
+
+/* ====== Answer ====== */
+.chat-answer {
+  background-color: #eef2ff;
+  padding: 14px 16px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-size: 0.95rem;
+  color: #1e1b4b;
+}
+
+/* ====== Load Previous Chats ====== */
+.load-chats-container {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.load-chats-btn {
+  background-color: #10b981;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background 0.2s ease;
+}
+
+.load-chats-btn:hover {
+  background-color: #059669;
+}
+
+/* ====== Saved Chats ====== */
+.saved-chats {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 14px;
+  margin-bottom: 24px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.saved-chats-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.saved-message {
+  background-color: #f3f4f6;
+  padding: 10px 14px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.saved-question {
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.saved-answer {
+  color: #374151;
+}
+
+/* ====== Chat History ====== */
+.chat-history {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.chat-history-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.chat-message {
+  background-color: #f3f4f6;
+  padding: 10px 14px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.chat-question {
+  font-weight: 500;
+  color: #111827;
+}
+
+.chat-answer-text {
+  color: #374151;
+}
+
+.chat-divider {
+  border: none;
+  border-bottom: 1px solid #e5e7eb;
+  margin: 10px 0;
+}
+
+/* ====== Clear Button ====== */
+.clear-history-btn {
+  background-color: #ef4444;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background 0.2s ease;
+  width: 100%;
+  margin-top: 12px;
+}
+
+.clear-history-btn:hover {
+  background-color: #dc2626;
+}
